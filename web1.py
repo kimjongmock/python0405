@@ -25,5 +25,8 @@ soup = BeautifulSoup(page, "html.parser")
 #print( soup.find_all("b") )
 
 #태그를 제거하고 내부 문자열을 가져와라
+#<p>컨텐츠</p>
 for tag in soup.find_all("p"):
-    print( tag.text )
+    #앞뒤에 공백문자를 제거
+    print( tag.text.strip() )
+
