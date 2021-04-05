@@ -25,3 +25,5 @@ food["햄"] = 6
 del food["김밥"]
 print( food )
 
+print("aaaa")
+
