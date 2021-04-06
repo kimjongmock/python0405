@@ -13,7 +13,7 @@ class MyClass:
 #인스턴스 생성 
 d = MyClass(5)
 # d_copy = d
-print("참조 횟수:{0}".format(sys.getrefcount(d))) )
+print("참조 횟수:{0}".format(sys.getrefcount(d)))
 # del d_copy 
 # del d
 
