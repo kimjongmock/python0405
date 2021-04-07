@@ -38,7 +38,7 @@ cur.execute("select * from PhoneBook;")
 result = cur.fetchone()
 print(result[0])
 print(result[1])
-#2차원 해영ㄹ 데이터 [행][열]
+#2차원 해열 데이터 [행][열]
 print("---다중행의 경우---")
 result = cur.fetchall()
 print(result[0][0])
